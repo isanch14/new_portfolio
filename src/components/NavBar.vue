@@ -1,12 +1,12 @@
 <template>
   <nav
-    class="nav w-screen z-20 text-white"
+    class="nav w-screen z-20 text-black"
     :class="ishome ? '' : 'shadow-2xl bg-red-800'"
   >
     <div class="left">
       <span class="font-light text-3xl">
         My
-        <span class="font-semibold">Portfolio</span>
+        <span class="font-semibold"> App Portfolio</span>
       </span>
     </div>
     <div class="right">
@@ -35,7 +35,7 @@ export default {
 .link {
   @apply px-2 font-semibold;
   &:hover {
-    @apply text-blue-800;
+    @apply text-purple-800;
   }
 }
 </style>
