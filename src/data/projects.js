@@ -5,6 +5,7 @@ import inventory from '../assets/projects/inventory.png'
 import vuetodo from '../assets/projects/vuetodo.png'
 import lookatmynotes from '../assets/projects/lookatmynotes.png'
 import login from '../assets/projects/login.png'
+import superherofinder from '../assets/projects/superherofinder.png'
 
 const projects = [
     {
@@ -64,6 +65,22 @@ const projects = [
           'vue-router'
         ],
         url: 'https://thelogin.israelsanchez.xyz/'
+    },
+    {
+        name: 'SuperHeroFinder',
+        description:
+          'A Vue.js Application with Vuex, consuming SuperHero DB API.',
+        image: superherofinder,
+        hashtags: [
+          'api',
+          'rest',
+          'vuejs',
+          'javascript',
+          'tailwind',
+          'vuex',
+          'vue-router'
+        ],
+        url: 'https://superherofinder.israelsanchez.xyz/'
     }
 ]
 
