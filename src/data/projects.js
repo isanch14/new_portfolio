@@ -97,7 +97,7 @@ const projects = [
           'vuex',
           'firebase'
         ],
-        url: 'https://moviedb.israelsanchez.xyz/'
+        url: 'https://moviesdb.israelsanchez.xyz/'
     }
 ]
 
