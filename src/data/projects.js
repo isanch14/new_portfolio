@@ -6,6 +6,7 @@ import vuetodo from '../assets/projects/vuetodo.png'
 import lookatmynotes from '../assets/projects/lookatmynotes.png'
 import login from '../assets/projects/login.png'
 import superherofinder from '../assets/projects/superherofinder.png'
+import moviedatabase from '../assets/projects/moviedatabase.png'
 
 const projects = [
     {
@@ -81,6 +82,22 @@ const projects = [
           'vue-router'
         ],
         url: 'https://superherofinder.israelsanchez.xyz/'
+    },
+    {
+        name: 'MovieDatabase',
+        description:
+          'A Vue.js Application with Vuex, consuming Movies DB API.',
+        image: moviedatabase,
+        hashtags: [
+          'api',
+          'rest',
+          'vuejs',
+          'javascript',
+          'vuetify',
+          'vuex',
+          'firebase'
+        ],
+        url: 'https://moviedb.israelsanchez.xyz/'
     }
 ]
 
