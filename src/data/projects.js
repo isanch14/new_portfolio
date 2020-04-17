@@ -7,6 +7,7 @@ import lookatmynotes from '../assets/projects/lookatmynotes.png'
 import login from '../assets/projects/login.png'
 import superherofinder from '../assets/projects/superherofinder.png'
 import moviedatabase from '../assets/projects/moviedatabase.png'
+import blogapp from '../assets/projects/blogapp.png'
 
 const projects = [
     {
@@ -98,7 +99,23 @@ const projects = [
           'firebase'
         ],
         url: 'https://moviesdb.israelsanchez.xyz/'
-    }
+    },
+    {
+      name: 'MyBlogApp',
+      description:
+        'A Vue.js Application with Vuex, consuming Blog API.',
+      image: blogapp,
+      hashtags: [
+        'api',
+        'rest',
+        'vuejs',
+        'javascript',
+        'vuetify',
+        'vuex',
+        'firebase'
+      ],
+      url: 'https://blog.israelsanchez.xyz/'
+  }
 ]
 
 export default projects
