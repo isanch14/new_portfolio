@@ -8,6 +8,7 @@ import login from '../assets/projects/login.png'
 import superherofinder from '../assets/projects/superherofinder.png'
 import moviedatabase from '../assets/projects/moviedatabase.png'
 import blogapp from '../assets/projects/blogapp.png'
+import chat from '../assets/projects/chat.png'
 
 const projects = [
     {
@@ -115,7 +116,23 @@ const projects = [
         'firebase'
       ],
       url: 'https://blog.israelsanchez.xyz/'
-  }
+  },
+  {
+    name: 'TheChatRoom',
+    description:
+      'A Vue.js Application with Vuex, implementing a Login with Firebase in Email/Password and Google.',
+    image: chat,
+    hashtags: [
+      'vuejs',
+      'auth',
+      'javascript',
+      'vuetify',
+      'vuex',
+      'firebase',
+      'firestore'
+    ],
+    url: 'https://thechat.israelsanchez.xyz/'
+}
 ]
 
 export default projects
