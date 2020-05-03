@@ -10,6 +10,7 @@ import moviedatabase from '../assets/projects/moviedatabase.png'
 import blogapp from '../assets/projects/blogapp.png'
 import chat from '../assets/projects/chat.png'
 import shop from '../assets/projects/shop.png'
+import pong from '../assets/projects/pong.png'
 
 const projects = [
     {
@@ -149,6 +150,21 @@ const projects = [
       'firestore'
     ],
     url: 'https://theshop.israelsanchez.xyz/'
+  },
+  {
+    name: 'The Pong Game',
+    description:
+      'A Vue.js Application with Vuex, implementing a pong game using Vue-P5.',
+    image: pong,
+    hashtags: [
+      'vuejs',
+      'vue-router',
+      'javascript',
+      'vuetify',
+      'vuex',
+      'vue-p5'
+    ],
+    url: 'https://pong.israelsanchez.xyz/'
   }
 ]
 
