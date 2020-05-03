@@ -9,6 +9,7 @@ import superherofinder from '../assets/projects/superherofinder.png'
 import moviedatabase from '../assets/projects/moviedatabase.png'
 import blogapp from '../assets/projects/blogapp.png'
 import chat from '../assets/projects/chat.png'
+import shop from '../assets/projects/shop.png'
 
 const projects = [
     {
@@ -132,7 +133,23 @@ const projects = [
       'firestore'
     ],
     url: 'https://thechat.israelsanchez.xyz/'
-}
+  },
+  {
+    name: 'Ranch Shop',
+    description:
+      'A Vue.js Application with Vuex, implementing a shop using Login with Firebase in Email/Password and Google.',
+    image: shop,
+    hashtags: [
+      'vuejs',
+      'auth',
+      'javascript',
+      'vuetify',
+      'vuex',
+      'firebase',
+      'firestore'
+    ],
+    url: 'https://theshop.israelsanchez.xyz/'
+  }
 ]
 
 export default projects
